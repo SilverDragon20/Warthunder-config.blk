@@ -1,0 +1,123 @@
+distr:t="nnfaw3a9s"
+firstRun:b=no
+firstYup:b=no
+firstDownload:b=no
+firstDownloaded:b=no
+firstGameShow:b=no
+firstGameRun:b=no
+use_release_candidate:b=no
+forcedLauncher:i=0
+releaseChannel:t=""
+language:t="Chinese"
+rdseed:i=18092
+clientBitType:t="auto"
+renderer3:t="auto"
+graphicsQuality:t="custom"
+doShowDriversOutdated:b=yes
+gamepad_cursor_control_speed:i=100
+use_eac:b=no
+
+download{
+  upl_speed_rate:i=1000
+  seeding_on:b=yes
+  peer_exchange:b=yes
+  dnl_limit:b=no
+  DHT:b=yes
+  upl_limit:b=no
+  dnl_speed_rate:i=1000
+  UTP2:b=yes
+}
+
+launcher{
+  startup_with_windows:b=no
+  hide_to_tray_option:b=yes
+  bg_update:b=yes
+}
+
+yunetwork{
+  webStatusPort:i=23456
+  curCircuit:t="production"
+  webStatusLocalhostOnly:b=yes
+  enableWebStatus:b=no
+}
+
+oculus{
+  edgeScale:r=0.95
+  magnetometerEnabled:b=no
+  maxSeparation:r=0.0005
+  predictionEnabled:b=no
+  zeroParallaxDist:r=3
+  k2:r=0.666
+  k1:r=0.5
+  fovMul:r=1.2
+}
+
+graphics{
+  enableSuspensionAnimation:b=yes
+  backgroundScale:r=1.5
+  clipmapScale:r=1.5
+  cloudsQuality:i=0
+  contactShadowsQuality:i=2
+  tireTracksQuality:i=3
+  texquality:t="high"
+  fxDensityMul:r=1
+  grassRadiusMul:r=1.8
+  rendinstDistMul:r=2.2
+  foamQuality:t="ultrahigh"
+  advancedShore:b=yes
+  lenseFlares:b=yes
+  anisotropy:i=16
+  waterQuality:t="ultrahigh"
+  dirtSubDiv:i=2
+  displacementQuality:i=3
+  landquality:i=4
+  panoramaResolution:i=4096
+  ssaa:r=1
+  shadowQuality:t="ultrahigh"
+  lastClipSize:i=8192
+  skyQuality:i=1
+  foliageReprojection:b=yes
+  physicsQuality:i=5
+}
+
+render{
+  ssrQuality:i=2
+  staticShadowsOnEffects:b=yes
+  haze:b=yes
+  ssaoQuality:i=2
+  rendinstGlobalShadows:b=yes
+  grass:b=yes
+  softFx:b=yes
+  shadows:b=yes
+  selfReflection:b=yes
+}
+
+debug{
+  enableNvHighlights:t="off"
+  screenshotAsJpeg:b=yes
+  512mboughttobeenoughforanybody:b=yes
+}
+
+sound{
+  speakerMode:t="auto"
+  fmod_sound_enable:b=yes
+}
+
+video{
+  resolution:t="1920 x 1080"
+  vrMode:b=no
+  instancing:t="auto"
+  postfx_antialiasing:t="none"
+  windowed:b=no
+  mode:t="fullscreen"
+  alpha_to_coverage:b=yes
+  compatibilityMode:b=no
+  driver:t="auto"
+  vsync:b=yes
+  adaptive_vsync:b=yes
+  fonts:t="medium"
+}
+
+directx{
+  maxaa:i=16
+}
