@@ -119,5 +119,5 @@ video{
 }
 
 directx{
-  maxaa:i=16
+  maxaa:i=8
 }
